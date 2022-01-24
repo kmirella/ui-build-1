@@ -1,13 +1,9 @@
 #root {
     background-color: #ffeedf;
-    text-align: center;
     display: flex;
-    position: relative;
     justify-content: center;
-}
-
-.center-me {
-    margin: 0 auto;
+    min-height: 100%;
+    align-items: center;
 }
 
     button {
@@ -19,9 +15,6 @@
         color: #ffeedf;
         font-weight: light;
         line-height: 0;
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
         font-family: 'Montserrat', sans-serif;
         border: 0px;
     }
